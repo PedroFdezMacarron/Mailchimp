@@ -14,23 +14,25 @@
 
 .mono{
         float: left;
-        width: calc(50% - 80px);
+        /* width: calc(50% - 80px);*/ 
         background: white;
-        padding: 40px;
-        min-height: 700px;
-        text-align: right;
+        padding: 40px;        
+        /* text-align: right; */ 
+        
 }
 
 
 aside{   
     display: inline-block;
-    width: calc(50% - 20px);
-    background-color: white;
+    /* width: calc(50% - 20px); */
+
+    max-width:max-content;
+    
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 1px;
     padding-bottom: 40;
     padding-top: 40;
-    min-height: 780px;
+
 }
 
 aside h1{
@@ -58,8 +60,12 @@ span.azul {
    float: right;
     color: #007C89;
     font-weight: bold;
-    width: 500px;
+   /* width: 500px;*/
   }
+  a.aazul {
+    color: #007C89;
+  }
+
 
 .lista1{
     width:30%;
@@ -67,13 +73,14 @@ span.azul {
     padding-left: 30px;
     padding-top: 10px;
     font-size:small;
-    padding-bottom: 10px;
+    padding-bottom: 10px;    
 }
 .lista2{
-    width: calc(70%-30px);
-    float: left;    
+    width: calc(70%-30px); 
+    float: right;     
     padding-top: 10px;
-    font-size:small;
+    padding-right: 30px;
+    font-size:small;    
 }
 
 aside button{

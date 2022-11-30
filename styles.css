@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@font-face{
+    font-family: "Coop";
+    src: url("./fonts/cooperl.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.mono{
+        float: left;
+        width: calc(50% - 80px);
+        background: white;
+        padding: 40px;
+        min-height: 700px;
+        text-align: right;
+}
+
+
+aside{   
+    display: inline-block;
+    width: calc(50% - 20px);
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40;
+    padding-top: 40;
+    min-height: 780px;
+}
+
+aside h1{
+    padding-top: 20px;
+    font-family: Coop;
+    font-size:40px;
+    padding-bottom: 15px;
+}
+legend{
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+
+
+input{
+    height: 30px;
+}
+
+span.azul {
+    color: rgb(83, 176, 199);
+  }
+
+.lista1{
+    width:30%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size:small;
+    padding-bottom: 10px;
+}
+.lista2{
+    width: calc(70%-30px);
+    float: left;    
+    padding-top: 10px;
+    font-size:small;
+}
+
+aside button{
+     padding: 10px 40px;    
+}
+
+.c1{
+    float: left;
+       
+}
+.c2{
+   
+    float: left;
+    padding-left: 20px;
+}
+.c3{
+    float: left;
+    padding-left: 20px;
+    
+}
+.clearfix{
+    clear:both;
+}
+.espacio{
+    clear:both;
+    height: 20px;
+}
+

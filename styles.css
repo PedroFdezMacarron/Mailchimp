@@ -52,7 +52,13 @@ input{
 }
 
 span.azul {
-    color: rgb(83, 176, 199);
+    color: #007C89;
+  }
+  span.azull {
+   float: right;
+    color: #007C89;
+    font-weight: bold;
+    width: 500px;
   }
 
 .lista1{

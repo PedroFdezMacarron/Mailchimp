@@ -13,18 +13,14 @@
 
 .mono {
   float: left;
-  /* width: calc(50% - 80px);*/
   background: white;
   padding: 40px;
-  /* text-align: right; */
+ 
 }
 
 aside {
   display: inline-block;
-  /* width: calc(50% - 20px); */
-
   max-width: max-content;
-
   padding-left: 10px;
   padding-right: 1px;
   padding-bottom: 40;
@@ -101,5 +97,16 @@ aside button {
   width: 1100px;
   /* width: 70%; */
   margin: 0px auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+li{
+  /* transform: scale(1.5);
+  font-size: 10px; */
+  padding-bottom:4px;
+}
+ul{
+  list-style-image: url("./imagenes/lista.png")
 }
